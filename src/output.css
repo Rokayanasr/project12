@@ -651,6 +651,10 @@ video {
   margin-top: 1rem;
 }
 
+.mt-40 {
+  margin-top: 10rem;
+}
+
 .block {
   display: block;
 }
@@ -689,6 +693,10 @@ video {
 
 .w-full {
   width: 100%;
+}
+
+.scroll-pt-24 {
+  scroll-padding-top: 6rem;
 }
 
 .flex-col {
@@ -795,6 +803,18 @@ video {
 
 .pt-3 {
   padding-top: 0.75rem;
+}
+
+.pt-1 {
+  padding-top: 0.25rem;
+}
+
+.pt-24 {
+  padding-top: 6rem;
+}
+
+.pt-40 {
+  padding-top: 10rem;
 }
 
 .text-center {
