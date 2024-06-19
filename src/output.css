@@ -753,6 +753,14 @@ video {
   --tw-bg-opacity: 0.65;
 }
 
+.bg-opacity-60 {
+  --tw-bg-opacity: 0.6;
+}
+
+.bg-opacity-50 {
+  --tw-bg-opacity: 0.5;
+}
+
 .p-2 {
   padding: 0.5rem;
 }
@@ -869,8 +877,6 @@ body {
     rgba(235, 214, 160, 0.47),
     var(--violet-color)
   );
-  --GCW: linear-gradient(180deg, #0e0e0e 0%, #1d1d1d 100%);
-  --GSCW: linear-gradient(100deg, #000000 100%, #ffe5a3 70%, #8668ff 100%);
   font-family: "Outfit", sans-serif;
   /* font-optical-sizing: auto; */
 }
@@ -887,7 +893,7 @@ body {
       4deg,
       #000 0.65%,
       #141414d0 30.65%,
-      rgba(12, 12, 12, 0) 90.5%
+      rgba(12, 12, 12, 0) 50%
     ),
     url("./assets/main-img.png");
   background-repeat: no-repeat;
