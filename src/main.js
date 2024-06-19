@@ -16,3 +16,13 @@ const swiper = new Swiper('.swiper', {
     //   el: '.swiper-scrollbar',
     // },
   });
+
+  document.querySelectorAll('.nav-link').forEach(function(navLink) {
+    navLink.addEventListener('click', function() {
+      this.classList.add('change-color');
+      setTimeout(() => {
+        this.classList.remove('change-color');
+      }, 500); // Change color for 3 seconds
+    });
+  });
+  
