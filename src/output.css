@@ -626,11 +626,6 @@ video {
   margin-right: 5rem;
 }
 
-.my-20 {
-  margin-top: 5rem;
-  margin-bottom: 5rem;
-}
-
 .mb-10 {
   margin-bottom: 2.5rem;
 }
@@ -643,24 +638,12 @@ video {
   margin-top: 2.5rem;
 }
 
-.mt-20 {
-  margin-top: 5rem;
+.mt-36 {
+  margin-top: 9rem;
 }
 
 .mt-4 {
   margin-top: 1rem;
-}
-
-.mt-40 {
-  margin-top: 10rem;
-}
-
-.mt-0 {
-  margin-top: 0px;
-}
-
-.mt-36 {
-  margin-top: 9rem;
 }
 
 .block {
@@ -701,10 +684,6 @@ video {
 
 .w-full {
   width: 100%;
-}
-
-.scroll-pt-24 {
-  scroll-padding-top: 6rem;
 }
 
 .flex-col {
@@ -801,36 +780,20 @@ video {
   padding-bottom: 0px;
 }
 
-.pb-14 {
-  padding-bottom: 3.5rem;
+.pb-10 {
+  padding-bottom: 2.5rem;
 }
 
-.pt-16 {
-  padding-top: 4rem;
+.pb-14 {
+  padding-bottom: 3.5rem;
 }
 
 .pt-3 {
   padding-top: 0.75rem;
 }
 
-.pt-1 {
-  padding-top: 0.25rem;
-}
-
-.pt-24 {
-  padding-top: 6rem;
-}
-
 .pt-40 {
   padding-top: 10rem;
-}
-
-.pb-20 {
-  padding-bottom: 5rem;
-}
-
-.pb-10 {
-  padding-bottom: 2.5rem;
 }
 
 .text-center {
@@ -1228,6 +1191,7 @@ body {
   /* Initially display the first logo */
   z-index: 1;
   /* Ensure the first logo is above the second one */
+  transition: opacity 0.5s ease-in-out;
 }
 
 .logo-2 {
@@ -1235,6 +1199,7 @@ body {
   /* Initially hide the second logo */
   z-index: 2;
   /* Ensure the second logo is above the first one */
+  transition: opacity 0.5s ease-in-out;
 }
 
 .footer-logo-container:hover .logo-1 {
