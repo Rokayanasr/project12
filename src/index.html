@@ -8,7 +8,7 @@
     <title>p12 project</title>
   </head>
   <body class="bg-black">
-    <header id="main" class="main-img my-container">
+    <header id="main" class="main-img my-container sm:mb-0  mb-36">
       <!-- ================ NAVBAR =================== -->
         <nav
           class="bg-opacity-65 my-container backdrop-blur-lg bg-black bg-blur-sm z-10 fixed w-full  top-0 start-0"
@@ -17,20 +17,20 @@
             class="max-w-screen-3xl mb-6 flex flex-wrap items-center justify-between my-container"
           >
             <a
-              href="#"
+              href="#main"
               class="flex items-center space-x-3 rtl:space-x-reverse"
             >
               <img
                 src="./assets/mask-group.png"
-                class="h-20"
+                class="h-14 sm:h-20"
                 alt="project 12 Logo"
               />
               <span class="flex flex-col gap-1.5">
                   <span
-                  class=" text-white logo-nav"
+                  class=" text-white logo-nav logo-hide"
                   >PROJECT 12</span
                   >
-                  <span class="text-white text-opacity-70 text-sm font-thin logo-title">CREATIVE AGENCY</span>
+                  <span class="text-white text-opacity-70 text-sm font-thin logo-title logo-hide">CREATIVE AGENCY</span>
               </span>
             </a>
             <div
@@ -84,16 +84,18 @@
           </div>
         </nav>
       <!-- ================ FIRST SECTION =================== -->
-        <h1  class="main-title text-white my-container mb-14">Masterpieces<br>Unleashed, One<br><span class="text-yellow">Project</span> At A Time!</h1>
-        <section class="gray-gradient my-container pb-0 gap-4" id="about">
-                <h2 class="capitalize text-white text-center secoundry-title">PROJECT 12</h2>
-                <h5 class="text-justify text-lg text-white tracking-widest font-thin pb-14">Project12 is a leading design agency known for its captivating and innovative designs. With a talented team of creative experts, we push boundaries and stay ahead of industry trends. Our commitment to thorough research ensures that our designs are not only visually stunning but also strategically effective. Trust project12 to bring your vision to life with exceptional and impactful designs.</h5 class="text-justify tet">
-        </section>
+          <div>
+              <h1  class="main-title text-center lg:text-left text-white my-container lg:mb-14">Masterpieces<br>Unleashed, One<br><span class="text-yellow">Project</span> At A Time!</h1>
+          </div>
+          <div class="gray-gradient my-container" id="about">
+              <h2 class="uppercase text-white text-center secoundry-title mt-40 mb-10">project 12</h2>
+              <h5 class="text-justify text-lg text-white tracking-widest font-thin">Project12 is a leading design agency known for its captivating and innovative designs. With a talented team of creative experts, we push boundaries and stay ahead of industry trends. Our commitment to thorough research ensures that our designs are not only visually stunning but also strategically effective. Trust project12 to bring your vision to life with exceptional and impactful designs.</h5 class="text-justify tet">
+          </div>
     </header>
 
       <!-- ================ OUR SERVICES "slider" =================== -->
-      <section class="my-container mx-10" id="services">
-          <h2 class="uppercase text-white text-center secoundry-title mt-36 mb-10">OUR SERVICES</h2>
+      <section class="my-container h-fit mx-0 md:mx-10" id="services">
+          <h2 class="uppercase text-white text-center secoundry-title mt-36 mb-16 md:mb-10">OUR SERVICES</h2>
 
           <!-- Slider main container -->
           <div class="swiper">
@@ -137,8 +139,8 @@
             <div class="swiper-pagination"></div> -->
 
             <!-- If we need navigation buttons -->
-            <div class="swiper-button-prev px-16 bg-blur-sm"></div>
-            <div class="swiper-button-next px-16 bg-blur-sm"></div>
+            <div class="swiper-button-prev px-3 md:px-16 bg-blur-sm"></div>
+            <div class="swiper-button-next px-3 md:px-16 bg-blur-sm"></div>
           </div>
       </section>
 
@@ -153,7 +155,7 @@
               <div class="gradient-background"></div>
               <!-- Main Content Div -->
               <div class="content">
-                <img src="assets/phone.svg" alt="call">
+                <img src="assets/phone.svg" class="h-8 md:h-6" alt="call">
                 <h6 class="pt-3 contact">+966582178996</h6>
               </div>
             </div>
@@ -163,7 +165,7 @@
               <div class="gradient-background"></div>
               <!-- Main Content Div -->
               <div class="content">
-                <img src="assets/message.svg" alt="call">
+                <img src="assets/message.svg" class="h-8 md:h-6" alt="call">
                 <h6 class="pt-3 contact">sumaya@project-12.co</h6>
               </div>
             </div>
@@ -173,7 +175,7 @@
               <div class="gradient-background"></div>
               <!-- Main Content Div -->
               <div class="content">
-                <img src="assets/x.svg" alt="call">
+                <img src="assets/x.svg" class="h-8 md:h-6" alt="call">
                 <h6 class="pt-3 contact">Project12</h6>
               </div>
             </div>
@@ -183,13 +185,13 @@
               <div class="gradient-background"></div>
               <!-- Main Content Div -->
               <div class="content">
-                <img src="assets/instagram.svg" alt="call">
+                <img src="assets/instagram.svg" class="h-8 md:h-6" alt="call">
                 <h6 class="pt-3 contact">Project12</h6>
               </div>
             </div>
           </div>
 
-          <footer class="footer-container my-container mx-20">
+          <footer class="footer-container my-container mb-10 sm:mb-0 sm:mx-20">
             <div class="footer-details">
                 <a class="uppercase text-white" href="#about">about us</a>
                 <a class="uppercase text-white" href="#services">services</a>
@@ -199,7 +201,7 @@
                 <img src="assets/mask-group.png" class="footer-logo logo-2" alt="Mask group">
             </a>
             <div>
-              <h3 class="uppercase text-white">© 2024 Project12 Agency</h3>
+              <h3 class="uppercase text-end sm:text-start text-white">© 2024 mroject12 Agency</h3>
             </div>
         </footer>
         
@@ -207,8 +209,8 @@
       </section>
 
       
-
-      <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+      <script src="../node_modules/flowbite/dist/flowbite.min.js"></script>
+      <script src="../node_modules/swiper/swiper-bundle.min.js"></script>
       <script src="main.js"></script>
   </body>
 </html>
